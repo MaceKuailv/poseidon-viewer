@@ -28,8 +28,8 @@
 <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
 
-    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
-    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=a3416100" />
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=eba8b062" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
@@ -388,14 +388,14 @@ document.write(`
 <h1>Create interpolator for datasets<a class="headerlink" href="#create-interpolator-for-datasets" title="Link to this heading">#</a></h1>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">seaduck</span> <span class="k">as</span> <span class="nn">sd</span>
-<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-<span class="kn">import</span> <span class="nn">lmdb</span>
-<span class="kn">import</span> <span class="nn">dask.array</span> <span class="k">as</span> <span class="nn">da</span>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">seaduck</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">sd</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">lmdb</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">dask.array</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">da</span>
 
-<span class="kn">import</span> <span class="nn">oceanspy</span> <span class="k">as</span> <span class="nn">ospy</span>
-<span class="kn">from</span> <span class="nn">precalc.gen_interp</span> <span class="kn">import</span> <span class="n">store_interpolator</span>
-<span class="kn">from</span> <span class="nn">precalc.grid_subsample</span> <span class="kn">import</span> <span class="n">generate_subocedata</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">oceanspy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">ospy</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">precalc.gen_interp</span><span class="w"> </span><span class="kn">import</span> <span class="n">store_interpolator</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">precalc.grid_subsample</span><span class="w"> </span><span class="kn">import</span> <span class="n">generate_subocedata</span>
 </pre></div>
 </div>
 </div>
@@ -472,16 +472,16 @@ document.write(`
         },
         codeMirrorConfig: {
             theme: "abcdef",
-            mode: "py38"
+            mode: "oceanography"
         },
         kernelOptions: {
-            name: "py38",
+            name: "oceanography",
             path: "./."
         },
         predefinedOutput: true
     }
     </script>
-    <script>kernelName = 'py38'</script>
+    <script>kernelName = 'oceanography'</script>
 
                 </article>
               
